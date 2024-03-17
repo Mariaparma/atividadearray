@@ -46,5 +46,28 @@ let array = ['5', '4', '3', '2', '1'];
 let arrayInvertido = array.reverse();
 console.log(arrayInvertido); // Saída:  ['1', '2', '3', '4', '5'];
 
+// Método filter()
+// Cria um novo array com todos os elementos que passam no teste implementado pela função fornecida.
+let arrayFiltrado = array.filter(elemento => elemento % 2 === 0);
+console.log(arrayFiltrado); // Saída: ['2', '4'];
+
+// Método filter()
+// Cria um novo array com todos os elementos que passam no teste implementado pela função fornecida.
+let arrayFiltrado = array.filter(elemento => elemento % 2 === 0);
+console.log(arrayFiltrado); // Saída: ['4', '8'];
+
+// Método map()
+// Cria um novo array com os resultados da função fornecida sendo aplicada a cada elemento do array original.
+let arrayMapeado = array.map(elemento => elemento * 2);
+console.log(arrayMapeado); // Saída: ['4', '6', '8', '10', '12']
+
+// Método map()
+// Cria um novo array com os resultados da função fornecida sendo aplicada a cada elemento do array original.
+let arrayMapeado = array.map(elemento => elemento * 2);
+console.log(arrayMapeado); // Saída: ['2', '4', '6', '8', '10']
+
+
+
+
 
 
