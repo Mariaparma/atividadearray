@@ -29,24 +29,24 @@ let estaIncluido = array.includes('3');
 console.log(estaIncluido); // Saída: verdadeira
 
 
-// Método includes()
+// Método includes
 // Verifica se um array inclui um determinado elemento e retorna verdadeira ou falsa.
 let estaIncluido = array.includes('6');
 console.log(estaIncluido); // Saída: verdadeira
 
-// Método reverse()
+// Método reverse
 // Inverte a ordem dos elementos do array e retorna o próprio array invertido.
 let array = ['1', '2', '3', '4', '5'];
 let arrayInvertido = array.reverse();
 console.log(arrayInvertido); // Saída: ['5', '4', '3', '2', '1'];
 
-// Método reverse()
+// Método reverse
 // Inverte a ordem dos elementos do array e retorna o próprio array invertido.
 let array = ['5', '4', '3', '2', '1'];
 let arrayInvertido = array.reverse();
 console.log(arrayInvertido); // Saída:  ['1', '2', '3', '4', '5'];
 
-// Método filter()
+// Método filter
 // Cria um novo array com todos os elementos que passam no teste implementado pela função fornecida.
 let arrayFiltrado = array.filter(elemento => elemento % 2 === 0);
 console.log(arrayFiltrado); // Saída: ['2', '4'];
@@ -56,12 +56,12 @@ console.log(arrayFiltrado); // Saída: ['2', '4'];
 let arrayFiltrado = array.filter(elemento => elemento % 2 === 0);
 console.log(arrayFiltrado); // Saída: ['4', '8'];
 
-// Método map()
+// Método map
 // Cria um novo array com os resultados da função fornecida sendo aplicada a cada elemento do array original.
 let arrayMapeado = array.map(elemento => elemento * 2);
 console.log(arrayMapeado); // Saída: ['4', '6', '8', '10', '12']
 
-// Método map()
+// Método map
 // Cria um novo array com os resultados da função fornecida sendo aplicada a cada elemento do array original.
 let arrayMapeado = array.map(elemento => elemento * 2);
 console.log(arrayMapeado); // Saída: ['2', '4', '6', '8', '10']
