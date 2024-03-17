@@ -86,6 +86,17 @@ console.log(ultimoIndice); // Saída: 2
 let ultimoIndice = array.lastIndexOf(4);
 console.log(ultimoIndice); // Saída: 2
 
+// Método some
+// Verifica se pelo menos um elemento do array satisfaz a função de teste fornecida.
+let algunsMaioresQueDez = array.some(elemento => elemento > 10);
+console.log(algunsMaioresQueDez); // Saída: falso
+
+// Método some
+// Verifica se pelo menos um elemento do array satisfaz a função de teste fornecida.
+let algunsMaioresQueDez = array.some(elemento => elemento > 20);
+console.log(algunsMaioresQueVinte); // Saída: falso
+
+
 
 
 
