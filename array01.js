@@ -96,6 +96,18 @@ console.log(algunsMaioresQueDez); // Saída: falso
 let algunsMaioresQueDez = array.some(elemento => elemento > 20);
 console.log(algunsMaioresQueVinte); // Saída: falso
 
+// Método every
+// Verifica se todos os elementos do array satisfazem a função de teste fornecida.
+let todosMaioresQueZero = array.every(elemento => elemento > 0);
+console.log(todosMaioresQueZero); // Saída: verdadeiro
+
+// Método every
+// Verifica se todos os elementos do array satisfazem a função de teste fornecida.
+let todosMaioresQueZero = array.every(elemento => elemento > -1);
+console.log(todosMaioresQueZero); // Saída: falso
+
+
+
 
 
 
