@@ -1,3 +1,4 @@
+
 // Método slice()
 //Retorna uma cópia de parte do array, selecionada do índice 1 (inclusive) ao índice 4 (exclusive)
 let novoArray = array.slice('1', '4');
@@ -21,5 +22,29 @@ let array1 = ['10', '20', '30'];
 let array2 = ['40', '50', '60'];
 let arrayConcatenado = array1.concat(array2);
 console.log(arrayConcatenado); // Saída: ['10', '20', '30', '40', '50', '60']
+
+// Método includes()
+// Verifica se um array inclui um determinado elemento e retorna verdadeira ou falsa.
+let estaIncluido = array.includes('3');
+console.log(estaIncluido); // Saída: verdadeira
+
+
+// Método includes()
+// Verifica se um array inclui um determinado elemento e retorna verdadeira ou falsa.
+let estaIncluido = array.includes('6');
+console.log(estaIncluido); // Saída: verdadeira
+
+// Método reverse()
+// Inverte a ordem dos elementos do array e retorna o próprio array invertido.
+let array = ['1', '2', '3', '4', '5'];
+let arrayInvertido = array.reverse();
+console.log(arrayInvertido); // Saída: ['5', '4', '3', '2', '1'];
+
+// Método reverse()
+// Inverte a ordem dos elementos do array e retorna o próprio array invertido.
+let array = ['5', '4', '3', '2', '1'];
+let arrayInvertido = array.reverse();
+console.log(arrayInvertido); // Saída:  ['1', '2', '3', '4', '5'];
+
 
 
