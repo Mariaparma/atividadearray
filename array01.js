@@ -1,15 +1,15 @@
 
-// Método slice()
+// Método slice
 //Retorna uma cópia de parte do array, selecionada do índice 1 (inclusive) ao índice 4 (exclusive)
 let novoArray = array.slice('1', '4');
 console.log(novoArray); // Saída: ['1', '2', '3']
 
-// Método slice()
+// Método slice
 //Retorna uma cópia de parte do array, selecionada do índice 1 (inclusive) ao índice 4 (exclusive)
 let novoArray = array.slice('1', '5');
 console.log(novoArray); // Saída: ['1'', '2', '3', '4']
 
-// Método concat()
+// Método concat
 //Retorna um novo array que é a concatenação do array 'array1' com o array 'array2'
 let array1 = ['1', '2', '3'];
 let array2 = ['4', '5', '6'];
@@ -66,6 +66,16 @@ console.log(arrayMapeado); // Saída: ['4', '6', '8', '10', '12']
 let arrayMapeado = array.map(elemento => elemento * 2);
 console.log(arrayMapeado); // Saída: ['2', '4', '6', '8', '10']
 
+
+// Método find
+// Retorna o primeiro elemento do array que satisfaz a função de teste fornecida.
+let elementoEncontrado = array.find(elemento => elemento > 3);
+console.log(elementoEncontrado); // Saída: 4
+
+// Método find
+// Retorna o primeiro elemento do array que satisfaz a função de teste fornecida.
+let elementoEncontrado = array.find(elemento => elemento > 4);
+console.log(elementoEncontrado); // Saída: 5
 
 
 
