@@ -23,7 +23,7 @@ let array2 = ['40', '50', '60'];
 let arrayConcatenado = array1.concat(array2);
 console.log(arrayConcatenado); // Saída: ['10', '20', '30', '40', '50', '60']
 
-// Método includes()
+// Método includes
 // Verifica se um array inclui um determinado elemento e retorna verdadeira ou falsa.
 let estaIncluido = array.includes('3');
 console.log(estaIncluido); // Saída: verdadeira
