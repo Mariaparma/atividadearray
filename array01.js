@@ -66,7 +66,6 @@ console.log(arrayMapeado); // Saída: ['4', '6', '8', '10', '12']
 let arrayMapeado = array.map(elemento => elemento * 2);
 console.log(arrayMapeado); // Saída: ['2', '4', '6', '8', '10']
 
-
 // Método find
 // Retorna o primeiro elemento do array que satisfaz a função de teste fornecida.
 let elementoEncontrado = array.find(elemento => elemento > 3);
@@ -77,6 +76,15 @@ console.log(elementoEncontrado); // Saída: 4
 let elementoEncontrado = array.find(elemento => elemento > 4);
 console.log(elementoEncontrado); // Saída: 5
 
+// Método lastIndexOf
+// Explicação: Retorna o índice do último elemento encontrado no array que corresponde ao valor especificado.
+let ultimoIndice = array.lastIndexOf(3);
+console.log(ultimoIndice); // Saída: 2
+
+// Método lastIndexOf
+// Explicação: Retorna o índice do último elemento encontrado no array que corresponde ao valor especificado.
+let ultimoIndice = array.lastIndexOf(4);
+console.log(ultimoIndice); // Saída: 2
 
 
 
