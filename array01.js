@@ -51,7 +51,7 @@ console.log(arrayInvertido); // Saída:  ['1', '2', '3', '4', '5'];
 let arrayFiltrado = array.filter(elemento => elemento % 2 === 0);
 console.log(arrayFiltrado); // Saída: ['2', '4'];
 
-// Método filter()
+// Método filter
 // Cria um novo array com todos os elementos que passam no teste implementado pela função fornecida.
 let arrayFiltrado = array.filter(elemento => elemento % 2 === 0);
 console.log(arrayFiltrado); // Saída: ['4', '8'];
