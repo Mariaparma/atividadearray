@@ -27,7 +27,6 @@ console.log(arrayConcatenado); // Saída: ['10', '20', '30', '40', '50', '60']
 let estaIncluido = array.includes('3');
 console.log(estaIncluido); // Saída: verdadeira
 
-
 // Método includes
 // Verifica se um array inclui um determinado elemento e retorna verdadeira ou falsa.
 let estaIncluido = array.includes('6');
