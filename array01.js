@@ -76,7 +76,7 @@ let elementoEncontrado = array.find(elemento => elemento > 4);
 console.log(elementoEncontrado); // Saída: 5
 
 // Método lastIndexOf
-// Explicação: Retorna o índice do último elemento encontrado no array que corresponde ao valor especificado.
+// Retorna o índice do último elemento encontrado no array que corresponde ao valor especificado.
 let ultimoIndice = array.lastIndexOf(3);
 console.log(ultimoIndice); // Saída: 2
 
